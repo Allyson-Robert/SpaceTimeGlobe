@@ -1,31 +1,32 @@
 For now: 
-a = 45 # Coordinate of the first lattice point in xt-space is (0, a), this means the first lattice point is placed at time 'a'
-b = 90 # Coordinate of the next diagonal lattice point (on the time axis) in xt-space (0, b), meaning this point is a time (b-a) away from the first lattice point
+a = 75 # Coordinate of the first lattice point in xt-space is (0, a), this means the first lattice point is placed at time 'a'
+b = 120 # Coordinate of the next diagonal lattice point (on the time axis) in xt-space (0, b), meaning this point is a time (b-a) away from the first lattice point
 
-voor (0,a): t from -1 to +1
+voor (0,a): t from -0.77 to + 0.77
 X = a/sqrt(2)*(sinh(t)+cosh(t))
 Y = a/sqrt(2)*(cosh(t)-sinh(t))
 
-voor ((a-b)/2,(a+b)/2) en ((b-a)/2,(a+b)/2): t from -1 to +1
+voor ((a-b)/2,(a+b)/2) en ((b-a)/2,(a+b)/2): t from -0.9 to + 0.9
 X = sqrt(a*b)/sqrt(2)*(sinh(t)+cosh(t))
 Y = sqrt(a*b)/sqrt(2)*(cosh(t)-sinh(t))
 
-voor (0,b): t from -1.1 to +1.1
+voor (0,b): t from -0.75 to +0.75
 X = b/sqrt(2)*(sinh(t)+cosh(t))
 Y = b/sqrt(2)*(cosh(t)-sinh(t))
 
-voor (0,b): t from -0.9 to + 0.9
+voor (0,b): t from -0.6 to +0.6
 X = sqrt(2*b**2-a*b)/sqrt(2)*(sinh(t)+cosh(t))
 Y = sqrt(2*b**2-a*b)/sqrt(2)*(cosh(t)-sinh(t))
 
-voor (0,b): t from -0.7 to + 0.7
+voor (0,b): t from -0.45 to + 0.45
 X = (2*b-a)/sqrt(2)*(sinh(t)+cosh(t))
 Y = (2*b-a)/sqrt(2)*(cosh(t)-sinh(t))
 
-voor (0,b): t from -0.65 to + 0.65
+voor (0,b): t from -0.33 to + 0.33
 X = sqrt(2*a**2-7*a*b+6*b**2)/sqrt(2)*(sinh(t)+cosh(t))
 Y = sqrt(2*a**2-7*a*b+6*b**2)/sqrt(2)*(cosh(t)-sinh(t))
 
+--- Left out
 voor H7: t from -0.44 to + 0.44
 X = (3*b-2*a)/sqrt(2)*(sinh(t)+cosh(t))
 Y = (3*b-2*a)/sqrt(2)*(cosh(t)-sinh(t))
