@@ -56,7 +56,7 @@ From the `repository_root/` you’ll find:
 
 ### 2. Hyperbola Plate
 
-1. Laser-cut plate (adjust SVG files if you change globe dimensions).
+1. Laser-cut plate
 2. Carefully countersink the four pre-lasered bolt holes.
 3. Bolt the plate onto the assembled frame using M3 × 10 bolts and nuts.
 
@@ -85,34 +85,11 @@ See `Assembly.FCStd` and `008.png` for a visual example with four blocks. Ensure
 
 ---
 
-## 🗂️ File Structure Overview
-
-```
-/
-├── corner_piece_*.FCStd/.step
-├── edge_piece_*.FCStd/.step
-├── hyperbola_plate.svg  (.dxf)
-├── top_plate.svg  (.dxf)
-├── lattice_block_*.FCStd/.step
-├── Dimensions.FCStd              ← master size control 
-├── Assembly.FCStd                ← build example
-├── 006.png, 008.png              ← assembly reference images
-└── README.md                     ← you’re here!
-```
-
----
-
-## 🏷️ License
-
-*(Add your license here—MIT, CC‑BY, etc.)*
-
----
-
 ## 🧠 Tips & Notes
 
 * Always countersink bolt holes in laser-cut parts for flush mounting.
-* For altered dimensions, yellow-highlighted features in FreeCAD recompute easily via parametric design.
-* Lattice-block pin placement is up to you—feel free to prototype which ones need reinforcement.
+* For altered dimensions, change the Dimenions.FCStd file and recompute all other files
+* Lattice-block pin placement is a bit of a mess atm but I do not have the diagram ready yet. Not all blocks should have a pin.
 
 ---
 
