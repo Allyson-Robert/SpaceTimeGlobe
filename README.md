@@ -1,7 +1,3 @@
-Here’s a polished **README.md** draft for your SpaceTimeGlobe project:
-
----
-
 # 🌌 SpaceTimeGlobe
 
 A buildable **3D spacetime globe** model for 3D printing and laser cutting.
