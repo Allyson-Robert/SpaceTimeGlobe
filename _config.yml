@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: 3D printable Spacetime Globe
+description: These files will help you create a 25cm x 25cm spacetime globe with 16 lattice points.
+show_downloads: true
+markdown: kramdown
