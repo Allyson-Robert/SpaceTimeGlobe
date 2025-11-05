@@ -10,12 +10,13 @@ Assemble a sleek, transparent globe that illustrates spacetime geometry using si
 From the `repository_root/` you’ll find:
 
 * STEP files for export: print-ready
+* Reference images: `006.png`, `008.png`, and others
+* Plates for laser‑cutting
 * FreeCAD Model Files
   * **Corner and edge 3D‑printable frames**
 
     * `corner_piece_*` (x 4)
     * `edge_piece_*` (x 4)
-  * **Laser‑cut plates**
 
     * `hyperbola_plate.svg/.dxf` (4 mm low‑friction material, e.g., plexiglass)
     * `top_plate.svg/.dxf` (4 mm transparent plexiglass)
@@ -25,7 +26,6 @@ From the `repository_root/` you’ll find:
 
     * `Dimensions.FCStd` – size‐reference file
     * Other FCStd models update automatically when reopened & recomputed
-  * Reference images: `006.png`, `008.png`, and others
 
 ---
 
