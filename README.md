@@ -9,7 +9,7 @@ Assemble a sleek, transparent globe that illustrates spacetime geometry using si
 
 From the `repository_root/` you’ll find:
 
-* STEP files for export: print-ready
+* STEP/STL files: print-ready (use STLs if your CAD software or slicer has issues with the STEP files)
 * Reference images: `006.png`, `008.png`, and others
 * Plates for laser‑cutting
 * FreeCAD Model Files
